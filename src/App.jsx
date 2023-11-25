@@ -99,7 +99,7 @@ export function App() {
         
         <h1>{error == true ? "got error" : null /* یا "" */}</h1>
 
-        <h1>pedaretmord</h1>
+       
         {  renderListAll.map((e) => {
           
           return <RenderItem key={e.id} title = {e.title} status = {e.status} state = {state} />
